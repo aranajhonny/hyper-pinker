@@ -1,6 +1,8 @@
 'use strict';
+module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
+
 const foregroundColor = '#F92672';
-const backgroundColor = '#2E1E96';
+const backgroundColor = 'rgba(0,0,0,.8)';
 const red = '#F71735';
 const green = '#0FFF95';
 const yellow = '#FFFC56';
@@ -8,12 +10,6 @@ const blue = '#01cdfe';
 const magenta = '#000000';
 const cyan = '#01cdfe';
 
-module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
-
-module.exports.decorateConfig = config => {
-  config.backgroundColor = 'rgba(0,0,0,.8)';
-  return config;
-}
 
 exports.decorateConfig = config => Object.assign({}, config, {
 	backgroundColor,
