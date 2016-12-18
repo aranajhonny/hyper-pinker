@@ -1,6 +1,6 @@
 # hyper-pinker
 
-> [Hyper](https://hyper.is) Hyper theme based in pink colors and vibrancy.
+> [Hyper](https://hyper.is) theme based in pink colors and vibrancy.
 
 ![](screenshot.png)
 
